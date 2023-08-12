@@ -3,8 +3,8 @@
 Snake::Snake(SDL_Renderer *ren) {
   Bone* entry = new Bone();
 
-  entry->x = 120;
-  entry->y = 120;
+  entry->x = 4*CELL_SIZE;
+  entry->y = 4*CELL_SIZE;
   entry->next = nullptr;
 
   head = entry;
