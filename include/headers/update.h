@@ -1,1 +1,0 @@
-void update(Game *game,Snake *snake,Food* food);
